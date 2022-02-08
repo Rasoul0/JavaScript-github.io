@@ -1,1 +1,1 @@
-console.log("You made it to the Max of Two Numbers.js");
+console.log("You made it to the Greeting someone.js");
