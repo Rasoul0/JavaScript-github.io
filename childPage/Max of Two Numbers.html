@@ -30,23 +30,29 @@
       </article>
     </section>
 
+
     <section>
+
+      <form action="x.html" method="post" onsubmit="event.preventDefault";>
+      <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
       <!--Submit Button-->
+      <p>&nbsp;</p>
+      <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+      <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
       <fieldset>
         <p>
           <label for="textfield">Number 1:</label>
-          <input name="textfield1" type="text" id="textfield1">
+          <input name="textfield1" type="text" id="textField1">
+          <a id="validityTest1">See the Alert</a>
         </p>
       </fieldset>
-      
-        <br><br>
-        <button type="button" onclick="main()">Submit</button>
-        <br>
-        <h3>The answer is:
-          <a id="answer">What is the Answer?!!!</a>
-        </h3>
-    </section>
 
+      <br><br>
+      <button type="button" onclick="main()">Submit</button>
+      <br>
+      <h3>Are you connected
+        <a id="answer"></a>
+      </h3>
     <script src="scripts/Max of Two Numbers.js"></script>
 
   </body>
