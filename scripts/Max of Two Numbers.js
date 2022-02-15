@@ -14,9 +14,20 @@ function main()
 //
 function testNaN (number)
 {
-  if ( isNaN(number) ) //Returns a Boolean
+  if ( isNaN(number==)//Checking for null,sumbit misfire
+  //variable returns empty, null
   {
+  return"Please Type a number into the textfield"
+}//End null check(number) ) //Returns a Boolean
+  {
+    if(number==null)//Checking for null,sumbit misfire
+    {
+    return"Please Type a number into the textfield"
+  }//End null check
+  //
+  if(stop==true&&isNaN(number)) //Returns a Boolean
     stop = true;
+
     return "Type a Real Number"
   } else
   {
