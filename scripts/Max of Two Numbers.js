@@ -1,4 +1,4 @@
-console.log("You made it to the Max of Two Numbers.js");
+console.log("You made it to the Max of Two Numbers.js!");
 //
 //Global Variables
 let stop = false;
@@ -10,27 +10,30 @@ function main()
   //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
   document.getElementById("validityTest1").innerHTML = testNaN (firstNumber);
   document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
+  if (stop == true)
+  {
+    document.getElementById("answer").innerHTML = "Restart ... because I said so."
+  } else
+  {
+    document.getElementById("answer").innerHTML = "What did you say?" + solution(firstNumber, secondNumber);
+  }//ENd stop=true
 }//End main()
 //
 function testNaN (number)
 {
-  if ( isNaN(number==)//Checking for null,sumbit misfire
-  //variable returns empty, null
+  if ( number=="" ) //Checking for null, submit-button misfire
+  //Variable returns emply string, not null
   {
-  return"Please Type a number into the textfield"
-}//End null check(number) ) //Returns a Boolean
-  {
-    if(number==null)//Checking for null,sumbit misfire
-    {
-    return"Please Type a number into the textfield"
+    stop = true;
+    return "Please type a number into the textfield"
   }//End null check
   //
-  if(stop==true&&isNaN(number)) //Returns a Boolean
+  if ( isNaN(number) ) //Returns a Boolean
+  {
     stop = true;
-
     return "Type a Real Number"
   } else
   {
     return "Good. It is a number."
   }
-}//End testNaN
+}//End testNaN\
