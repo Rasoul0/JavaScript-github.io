@@ -5,6 +5,23 @@ let stop = false;
 //
 function main()
 {
+  if(number1 == number2) return "equal"
+  // Ternary operator Example (single comparison), needs single line if to limit choices
+  if(number1 > number2) ? "Number 2 is larger" :"Number 1 is larger";
+  //
+  /*
+  //Reapeats the ternary operater
+  {
+    return "number1 is larger";
+  } else
+  {
+    return "number 2 is larger":
+  }
+  */
+}//End sloution
+//
+function main()
+{
   let firstNumber = document.getElementById("textField1").value;
   let secondNumber = document.getElementById("textField2").value;
   //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
@@ -15,7 +32,7 @@ function main()
     document.getElementById("answer").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("answer").innerHTML = "What did you say?" + solution(firstNumber, secondNumber);
+    document.getElementById("answer").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
   }//ENd stop=true
 }//End main()
 //
@@ -31,9 +48,9 @@ function testNaN (number)
   if ( isNaN(number) ) //Returns a Boolean
   {
     stop = true;
-    return "Type a Real Number"
+    return "Type a Real Number";
   } else
   {
     return "Good. It is a number."
   }
-}//End testNaN\
+}//End testNaN
