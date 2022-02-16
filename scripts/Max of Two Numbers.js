@@ -3,25 +3,27 @@ console.log("You made it to the Max of Two Numbers.js!");
 //Global Variables
 let stop = false;
 //
-function main()
+function solution (number1, number2)
 {
-  if(number1 == number2) return "equal"
-  // Ternary operator Example (single comparison), needs single line if to limit choices
-  if(number1 > number2) ? "Number 2 is larger" :"Number 1 is larger";
+  if ( number1 == number2 ) return "  Equal";
+  // Ternary Operator Example (single comparison), needs single line IF to limit choices
+  return ( number1 > number2 ) ? "Number 2 is larger" : "Number 1 is larger";
+  //Odd Ternary, first option is usually true
   //
-  /*
-  //Reapeats the ternary operater
+  /* Repeats the Ternary Operator
+  if ( number1 > number2 )
   {
-    return "number1 is larger";
+    return "Number 1 is larger";
   } else
   {
-    return "number 2 is larger":
+    return "Number 2 is larger";
   }
   */
-}//End sloution
+}//ENd solution
 //
 function main()
 {
+  stop = false; //for Screen Refresh
   let firstNumber = document.getElementById("textField1").value;
   let secondNumber = document.getElementById("textField2").value;
   //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
