@@ -2,127 +2,135 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Child Template</title>
+    <meta name="author" content="Mark Mercer">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+
   <body>
-    <header>Demerit Points</header>
-    <nav>
-    </nav>
-    <section>
-      <article> Description of Assignment
-        <ul>
-          <li> Problem:
-          <li> Test cases:
+    <header><h1>Child Template</h1></header>
+      <nav>
+      </nav>
+      <section>
+        <article> Description of Assignment
+          <ul>
+            <li> Problem:
+            <li> Test cases:
+              <ul>
+                <li>
+              </ul>
+            <li> Use strings? to return calculated answer?
+              <ul>
+                <li> Examples:
+              </ul>
+          </ul>
+        </article>
+      </section>
+      <section>
+
+      <section>
+
+        <form action="x.html" method="post" onsubmit="event.preventDefault";>
+        <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
+        <p>&nbsp;</p>
+        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+        <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
+        <p>
+          <label for="textfield">Number1:</label>
+          <input name="textfield1" type="text" id="textField1">
+        </p>
+        <p>
+          <label for="textfield">Number2:</label>
+          <input name="textfield2" type="text" id="textField2">
+        </p>
+        <p>
+          <!-- Text Area is mutliline plain text editting control-->
+          <label for="tArea">Text Area or Box: </label>
+          <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
+        </p>
+        <p>&nbsp</p>
+
+        <fieldset>
+          <legend> Case Studies</legend>
+          <div> TestCases
             <ul>
               <li>
             </ul>
-          <li> Use strings? to return calculated answer?
+          </div>
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio1" id="radioGroup1_0">
+            Radio 1
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio2" id="radioGroup1_1">
+            Radio 2
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup1" value="radio3" id="radioGroup1_2">
+            Radio 3
+          </label>
+          <br>
+        </fieldset>
+
+        <p>&nbsp</p>
+        <fieldset>
+          <legend> Case Studies</legend>
+          <div> TestCases
             <ul>
-              <li> Examples:
+              <li>
             </ul>
-        </ul>
-      </article>
-    </section>
-    <section>
+          </div>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox1" id="checkboxGroup1_0">
+            Checkbox 1
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox2" id="checkboxGroup1_1">
+            Checkbox 2
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" name="CheckboxGroup1" value="checkbox3" id="checkboxGroup1_2">
+            Checkbox 3
+          </label>
+          <br>
+        </fieldset>
 
-    <section>
-
-      <form action="x.html" method="post" onsubmit="event.preventDefault";>
-      <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
-      <p>&nbsp;</p>
-      <!-- See: https://www.w3schools.com/html/html_entities.asp-->
-      <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
-      <p>
-        <label for="textfield">Number1:</label>
-        <input name="textfield1" type="text" id="textField1">
-      </p>
-      <p>
-        <label for="textfield">Number2:</label>
-        <input name="textfield2" type="text" id="textField2">
-      </p>
-      <p>
-        <!-- Text Area is mutliline plain text editting control-->
-        <label for="tArea">Text Area or Box: </label>
-        <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
-      </p>
-      <p>&nbsp</p>
-
-      <fieldset>
-        <legend> Case Studies</legend>
-        <div> TestCases
-          <ul>
-            <li>
-          </ul>
-        </div>
-        <label>
-          <input type="radio" name="RadioGroup1" value="radio1" id="radioGroup1_0">
-          Radio 1
-        </label>
+        <!--Submit Button-->
+        <br><br>
+        <button type="button" onclick="main()">Submit</button>
         <br>
-        <label>
-          <input type="radio" name="RadioGroup1" value="radio2" id="radioGroup1_1">
-          Radio 2
-        </label>
-        <br>
-        <label>
-          <input type="radio" name="RadioGroup1" value="radio3" id="radioGroup1_2">
-          Radio 3
-        </label>
-        <br>
-      </fieldset>
+        <h3>The answer is:
+          <a id="">What is the Answer?!!!</a>
+        </h3>
+        <article></article>
 
-      <p>&nbsp</p>
-      <fieldset>
-        <legend> Case Studies</legend>
-        <div> TestCases
-          <ul>
-            <li>
-          </ul>
-        </div>
-        <label>
-          <input type="checkbox" name="CheckboxGroup1" value="checkbox1" id="checkboxGroup1_0">
-          Checkbox 1
-        </label>
-        <br>
-        <label>
-          <input type="checkbox" name="CheckboxGroup1" value="checkbox2" id="checkboxGroup1_1">
-          Checkbox 2
-        </label>
-        <br>
-        <label>
-          <input type="checkbox" name="CheckboxGroup1" value="checkbox3" id="checkboxGroup1_2">
-          Checkbox 3
-        </label>
-        <br>
-      </fieldset>
+      </section>
+      <aside><p></p></aside>
+      <section><h3></h3><article><p></p></article></section>
 
-      <!--Submit Button-->
-      <br><br>
-      <button type="button" onclick="main()">Submit</button>
-      <br>
-      <h3>The answer is:
-        <a id="">What is the Answer?!!!</a>
-      </h3>
-      <article></article>
-
-    </section>
-    <aside><p></p></aside>
-    <section><h3></h3><article><p></p></article></section>
-
-      <script src="scripts/Demerit Points.js"></script>
+    <script src="../scripts/Demerit Points.js"></script>
 
   </body>
+
   <footer>
-    <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
-     <!-- Date Accessed: 20220204 -->
-     <p><strong>Getting information off the Interent is like taking a dring from a firehose.</strong></p>
-     <p>
-       <em>
-         <a href="https://www.brainyquote.com/quotes/mitch_kapor_163583">
-           Mitch Kapor
-         </a>
-       </em>
-     </p>
-     &copy Rasoul Edris, powered by Rasoul0 in GitHub
+    <blockquote cite="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
+    <!-- Date Accessed: 20210917 -->
+    <p><strong>Getting information off the Interent is like taking a dring from a firehose.</strong></p>
+    <p>
+      <em>
+        <a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
+          Mitch Kapor
+        </a>
+      </em>
+    </p>
+    <p>
+      &copy Mark Mercer, powered by MercersKitchen in GitHub
+    </p>
   </footer>
 </html>
