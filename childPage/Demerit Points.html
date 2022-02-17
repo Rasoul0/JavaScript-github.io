@@ -7,130 +7,79 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-
+   </head>
   <body>
-    <header><h1>Demerit Points</h1></header>
-      <nav>
-      </nav>
-      <section>
-        <article> Description of Assignment
-          <ul>
-            <li> Problem:
-            <li> Test cases:
-              <ul>
-                <li>
-              </ul>
-            <li> Use strings? to return calculated answer?
-              <ul>
-                <li> Examples:
-              </ul>
-          </ul>
-        </article>
-      </section>
-      <section>
+    <header><strong>Demerit Points</strong></header>
+    <nav>
+    </nav>
+    <section> Discription of the Assighnment
+      <article>
+           <ul>
+          <li> Problem: input a speed and calculated the demerit points
+          <li> Bouns (Advanced): also input the speed limit
+          <li>  Note: speed limit is 70 km per hour
+          <li> Note: for every 5km above the speed limit, 1 demerit point
+          <li> Note: at any speed limit, 12 demerit points means lisence suspended
+          <ul> Test Cases:
+          <li> 68 km/h: 0 points
+          <li> 70 km/h: 0 points
+          <li> 71 km/h: 0 points
+          <li> 74 km/h: 0 points
+          <li> 75 km/h: 1 points
+          <li> 85 km/h: 3 points
+          <li> 102 km/h: 6 points
+          <li> 115 km/h: 9 points
+          <li> 130 km/h: Lisence suspended
+           </ul>
 
-      <section>
+      </article>
+    </section>
+    <section>
 
-        <form action="x.html" method="post" onsubmit="event.preventDefault";>
-        <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
-        <p>&nbsp;</p>
-        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
-        <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
-        <p>
-          <label for="textfield">Number1:</label>
-          <input name="textfield1" type="text" id="textField1">
-        </p>
-        <p>
-          <label for="textfield">Number2:</label>
-          <input name="textfield2" type="text" id="textField2">
-        </p>
-        <p>
-          <!-- Text Area is mutliline plain text editting control-->
-          <label for="tArea">Text Area or Box: </label>
-          <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
-        </p>
-        <p>&nbsp</p>
+    <section>
 
-        <fieldset>
-          <legend> Case Studies</legend>
-          <div> TestCases
-            <ul>
-              <li>
-            </ul>
-          </div>
-          <label>
-            <input type="radio" name="RadioGroup1" value="radio1" id="radioGroup1_0">
-            Radio 1
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="RadioGroup1" value="radio2" id="radioGroup1_1">
-            Radio 2
-          </label>
-          <br>
-          <label>
-            <input type="radio" name="RadioGroup1" value="radio3" id="radioGroup1_2">
-            Radio 3
-          </label>
-          <br>
-        </fieldset>
+      <form action="x.html" method="post" onsubmit="event.preventDefault";>
+      <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
+      <p>&nbsp;</p>
+      <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+      <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
+       <fieldset>
+         <legend> Enter the display Geometery</legend>
+      <p>
+        <label for="textfield">Number1:</label>
+        <input name="textfield1" type="text" id="textField1">
+      </p>
+      <p>
+        <label for="textfield">Number2:</label>
+        <input name="textfield2" type="text" id="textField2">
+      </p>
+    </fieldset>
+      <p>&nbsp</p>
+      <!--Submit Button-->
+      <br><br>
+      <button type="button" onclick="main()">Submit</button>
+      <br>
+      <h3>The answer is:
+        <a id="">What is the Answer?!!!</a>
+      </h3> Display Geometery is <a id=""> </a><h3>
+      <article></article>
 
-        <p>&nbsp</p>
-        <fieldset>
-          <legend> Case Studies</legend>
-          <div> TestCases
-            <ul>
-              <li>
-            </ul>
-          </div>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" value="checkbox1" id="checkboxGroup1_0">
-            Checkbox 1
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" value="checkbox2" id="checkboxGroup1_1">
-            Checkbox 2
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" value="checkbox3" id="checkboxGroup1_2">
-            Checkbox 3
-          </label>
-          <br>
-        </fieldset>
-
-        <!--Submit Button-->
-        <br><br>
-        <button type="button" onclick="main()">Submit</button>
-        <br>
-        <h3>The answer is:
-          <a id="">What is the Answer?!!!</a>
-        </h3>
-        <article></article>
-
-      </section>
-      <aside><p></p></aside>
-      <section><h3></h3><article><p></p></article></section>
-
-    <script src="../scripts/Demerit Points.js"></script>
-
+    </section>
+    <aside><p></p></aside>
+    <section><h3></h3><article><p></p></article></section>
+       <script src="../scripts/Landscape or Portrait.js"></script>
   </body>
-
   <footer>
-    <blockquote cite="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
-    <!-- Date Accessed: 20210917 -->
-    <p><strong>Getting information off the Interent is like taking a dring from a firehose.</strong></p>
-    <p>
-      <em>
-        <a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
-          Mitch Kapor
-        </a>
-      </em>
-    </p>
-    <p>
-      &copy Rasoul Edris, powered by Rasoul0 in GitHub
-    </p>
+    <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
+     <!-- Date Accessed: 20220204 -->
+     <p><strong>Getting information off the Interent is like taking a dring from a firehose.</strong></p>
+     <p>
+       <em>
+         <a href="https://www.brainyquote.com/quotes/mitch_kapor_163583">
+           Mitch Kapor
+         </a>
+       </em>
+     </p>
+     &copy Rasoul Edris, powered by Rasoul0 in GitHub
   </footer>
 </html>
