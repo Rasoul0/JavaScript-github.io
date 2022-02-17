@@ -3,23 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <meta name="author" content="Rasoul Edris">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <header>Greeting someone</header>
+    <header><strong>Greeting Someone Assignment<strong></header>
     <nav>
     </nav>
     <section>
       <article> Description of Assignment
         <ul>
-          <li> Problem:
+          <li> Problem: based on the time of day, say an appropriate hello
           <li> Test cases:
-            <ul>
-              <li>
+          <ul>
+          <li> early morning(12.00- 7AM): "?"
+          <li> Before Lunch( 7:01 - 11:59 AM): "?"
+          <li> After lunch but before Rasoul's study time( 12:00 PM - 7:59): "?"
+          <li>  Before your bedtime ( 8:00 pm to midnight, 11:59): "?"
             </ul>
-          <li> Use strings? to return calculated answer?
+
             <ul>
-              <li> Examples:
-            </ul>
+          <li> Note: input time, return greeting(string)
+          <li> Reminder: processing must recognize number for a string output
+          <li> Remember: NaN Function for odd inputs
+           </ul>
         </ul>
       </article>
     </section>
@@ -32,6 +41,8 @@
       <p>&nbsp;</p>
       <!-- See: https://www.w3schools.com/html/html_entities.asp-->
       <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
+       <fieldset>
+         <legend> Enter the display Geometery</legend>
       <p>
         <label for="textfield">Number1:</label>
         <input name="textfield1" type="text" id="textField1">
@@ -40,76 +51,21 @@
         <label for="textfield">Number2:</label>
         <input name="textfield2" type="text" id="textField2">
       </p>
-      <p>
-        <!-- Text Area is mutliline plain text editting control-->
-        <label for="tArea">Text Area or Box: </label>
-        <textarea type="tArea" cols="20" rows="4" id="password"></textarea>
-      </p>
+    </fieldset>
       <p>&nbsp</p>
-
-      <fieldset>
-        <legend> Case Studies</legend>
-        <div> TestCases
-          <ul>
-            <li>
-          </ul>
-        </div>
-        <label>
-          <input type="radio" name="RadioGroup1" value="radio1" id="radioGroup1_0">
-          Radio 1
-        </label>
-        <br>
-        <label>
-          <input type="radio" name="RadioGroup1" value="radio2" id="radioGroup1_1">
-          Radio 2
-        </label>
-        <br>
-        <label>
-          <input type="radio" name="RadioGroup1" value="radio3" id="radioGroup1_2">
-          Radio 3
-        </label>
-        <br>
-      </fieldset>
-
-      <p>&nbsp</p>
-      <fieldset>
-        <legend> Case Studies</legend>
-        <div> TestCases
-          <ul>
-            <li>
-          </ul>
-        </div>
-        <label>
-          <input type="checkbox" name="CheckboxGroup1" value="checkbox1" id="checkboxGroup1_0">
-          Checkbox 1
-        </label>
-        <br>
-        <label>
-          <input type="checkbox" name="CheckboxGroup1" value="checkbox2" id="checkboxGroup1_1">
-          Checkbox 2
-        </label>
-        <br>
-        <label>
-          <input type="checkbox" name="CheckboxGroup1" value="checkbox3" id="checkboxGroup1_2">
-          Checkbox 3
-        </label>
-        <br>
-      </fieldset>
-
       <!--Submit Button-->
       <br><br>
       <button type="button" onclick="main()">Submit</button>
       <br>
       <h3>The answer is:
         <a id="">What is the Answer?!!!</a>
-      </h3>
+      </h3> Display Geometery is <a id=""> </a><h3>
       <article></article>
 
     </section>
     <aside><p></p></aside>
     <section><h3></h3><article><p></p></article></section>
-      <script src="scripts/Greeting someone.js"></script>
-
+       <script src="../scripts/Landscape or Portrait.js"></script>
   </body>
   <footer>
     <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
