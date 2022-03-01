@@ -9,19 +9,19 @@ function javascript () { //Where colsole.log tested file goes
 function main() {
   let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
   //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
-  firstNumber = document.getElementById("textField1").value;
-  secondNumber = document.getElementById("textField2").value;
+  firstNumber = document.getElementById("widthNumber").value;
+  secondNumber = document.getElementById("heightNumber").value;
   //Validate by alert or HTML Text in p-tag
-  document.getElementById("validityTest1").innerHTML = alert (testNAN (firstNumber) );
-  document.getElementById("validityTest1").innerHTML = testNAN (firstNumber);
-  document.getElementById("validityTest2").innerHTML = alert (testNAN (secondNumber) );
-  document.getElementById("validityTest2").innerHTML = testNAN (secondNumber);
+  document.getElementById("widthNumber").innerHTML = alert (testNAN (firstNumber) );
+  document.getElementById("widthNumber").innerHTML = testNAN (firstNumber);
+  document.getElementById("heightNumber").innerHTML = alert (testNAN (secondNumber) );
+  document.getElementById("heightNumber").innerHTML = testNAN (secondNumber);
   if (stop == true) {
-      document.getElementById("geo").innerHTML = "Restart because I said so." //Change to more appropriate message
+      document.getElementById("geo").innerHTML = "please Restart." //Change to more appropriate message
     } else {
       //Difference between calling functions with arguements and sending to parameter's, local variables
-      console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
-      document.getElementById("geo").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
+      console.log("Please ", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
+      document.getElementById("geo").innerHTML = "Please Say that again " + geometry (firstNumber, secondNumber);
     }
 } //End main()
 //
