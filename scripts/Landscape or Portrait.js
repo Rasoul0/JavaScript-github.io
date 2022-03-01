@@ -13,16 +13,16 @@ function main()
   document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
   if (stop == true)
   {
-    document.getElementById("answer").innerHTML = "Please restart."
+    document.getElementById("geo").innerHTML = "Please restart."
   } else
   {
-    document.getElementById("answer").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
+    document.getElementById("geo").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
   }//ENd stop=true
 }//End main()
 //
 function testNaN (number)
 {
-  if ( number=="" ) 
+  if ( number=="" )
   {
     stop = true;
     return "Please type a number into the textfield"
