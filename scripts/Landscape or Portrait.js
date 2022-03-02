@@ -32,7 +32,7 @@ function main() {
 function testNaN (number) {
   if ( isNaN (number) ) { //NaN are not values o REAL Number System
     stop = true;
-    return "Type a Real Number"
+    return "Please Type a Real Number"
   } else {
     return "Input Validated"
   }
