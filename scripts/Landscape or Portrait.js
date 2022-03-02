@@ -15,16 +15,16 @@ function main() {
     firstNumber = document.getElementById("widthNumber").value;
     secondNumber = document.getElementById("heightNumber").value;
     //Validate by alert or HTML Text in p-tag
-    document.getElementById("validityTest1").innerHTML = alert (testNAN (firstNumber) );
-    document.getElementById("validityTest1").innerHTML = testNAN (firstNumber);
-    document.getElementById("validityTest2").innerHTML = alert (testNAN (secondNumber) );
-    document.getElementById("validityTest2").innerHTML = testNAN (secondNumber);
+    document.getElementById("widthNumber").innerHTML = alert (testNAN (firstNumber) );
+    document.getElementById("widthNumber").innerHTML = testNAN (firstNumber);
+    document.getElementById("heightNumber").innerHTML = alert (testNAN (secondNumber) );
+    document.getElementById("heightNumber").innerHTML = testNAN (secondNumber);
     if (stop == true) {
         document.getElementById("answer").innerHTML = "Please Restart." //Change to more appropriate message
       } else {
         //Difference between calling functions with arguements and sending to parameter's, local variables
         console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
-        document.getElementById("answer").innerHTML = "Can you repeat that again please? " + geometry (firstNumber, secondNumber);
+        document.getElementById("geo").innerHTML = "Can you repeat that again please? " + geometry (firstNumber, secondNumber);
 
 
 } //End main()
