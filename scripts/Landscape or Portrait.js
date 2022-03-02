@@ -20,7 +20,7 @@ function main() {
     document.getElementById("heightNumber").innerHTML = alert (testNAN (secondNumber) );
     document.getElementById("heightNumber").innerHTML = testNAN (secondNumber);
     if (stop == true) {
-        document.getElementById("answer").innerHTML = "Please Restart." //Change to more appropriate message
+        document.getElementById("geo").innerHTML = "Please try again." //Change to more appropriate message
       } else {
         //Difference between calling functions with arguements and sending to parameter's, local variables
         console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
