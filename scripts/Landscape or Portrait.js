@@ -27,7 +27,6 @@ function main() {
         document.getElementById("answer").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
       }
       */
-  } //End main()
 } //End main()
 //
 function testNaN (number) {
