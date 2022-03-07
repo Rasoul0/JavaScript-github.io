@@ -8,7 +8,7 @@ function javascript () { //Where colsole.log tested file goes
 //Main Function, necessary lines of code
 function main() {
 
-  document.getElementById(validityTest1).innerHTML = alert("Welcome");
+  document.getElementById("widthNumber").innerHTML = alert("Welcome");
 
     let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
     //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
@@ -32,7 +32,7 @@ function main() {
 function testNaN (number) {
   if ( isNaN (number) ) { //NaN are not values o REAL Number System
     stop = true;
-    return "Please Type a Real Number"
+    return "Please Try again"
   } else {
     return "Input Validated"
   }
