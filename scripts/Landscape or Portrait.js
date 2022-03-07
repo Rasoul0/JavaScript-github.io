@@ -5,6 +5,18 @@ let stop = false; //Boolean for testNaN() validation function, see end of file
 function javascript () { //Where colsole.log tested file goes
 
 }
+
+function solution(width,height)
+{
+if(width == height) return "square";
+return (width>height)
+
+
+
+
+
+
+}
 //Main Function, necessary lines of code
 function main() {
 
