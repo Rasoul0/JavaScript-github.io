@@ -28,6 +28,7 @@ function main() {
 
 
 } //End main()
+}
 //
 function testNaN (number) {
   if ( isNaN (number) ) { //NaN are not values o REAL Number System
