@@ -26,9 +26,8 @@ function main() {
         console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
         document.getElementById("geo").innerHTML = "Can you repeat that again please? " + geometry (firstNumber, secondNumber);
 
-
-} //End main()
 }
+} //End main()
 //
 function testNaN (number) {
   if ( isNaN (number) ) { //NaN are not values o REAL Number System
