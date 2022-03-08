@@ -4,22 +4,22 @@ console.log("You made it to the Landscape or Portrait.js");
 //Global Variables
 let stop = false;
 //
-function solution (number1, number2)
+function solution (width, height)
 {
-  if ( number1 == number2 ) return "  square";
+  if ( width == height ) return "  square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
-  return ( number1 > number2 ) ? "Landscape";
+  return ( width > height ) ? "Landscape";
   //Odd Ternary, first option is usually true
   //
-  return(number1 < number2)? "Portrait";
+  return(width < height)? "Portrait";
 /*
    //Repeats the Ternary Operator
   if ( number1 < number2 )
   {
-    return "Number 2 is larger";
+    return "height is larger";
   } else
   {
-    return "Number 1 is larger";
+    return "width is larger";
   }
 */
 
@@ -28,17 +28,17 @@ function solution (number1, number2)
 function main()
 {
   stop = false; //for Screen Refresh
-  let firstNumber = document.getElementById("widthNumber").value;
-  let secondNumber = document.getElementById("heightNumber").value;
+  let width = document.getElementById("widthNumber").value;
+  let height = document.getElementById("heightNumber").value;
   //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
-  document.getElementById("widthNumber").innerHTML = testNaN (firstNumber);
-  document.getElementById("heightNumber").innerHTML = testNaN (secondNumber);
+  document.getElementById("widthNumber").innerHTML = testNaN (width);
+  document.getElementById("heightNumber").innerHTML = testNaN (height);
   if (stop == true)
   {
     document.getElementById("geo").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("geo").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
+    document.getElementById("geo").innerHTML = "What did you say?  " + solution(width, height);
   }//ENd stop=true
 }//End main()
 //
@@ -54,9 +54,9 @@ function testNaN (number)
   if ( isNaN(number) ) //Returns a Boolean
   {
     stop = true;
-    return "Type a Real Number";
+    return "Type a Number only";
   } else
   {
-    return "Good. It is a number."
+    return " It is a number. You got it."
   }
 }//End testNaN
