@@ -20,13 +20,13 @@ function main() {
   document.getElementById("validityTest2").innerHTML = alert (testNAN (secondNumber) );
   document.getElementById("validityTest2").innerHTML = testNAN (secondNumber);
   if (stop == true) {
-      document.getElementById("answer").innerHTML = "Restart because I said so." //Change to more appropriate message
+      document.getElementById("points").innerHTML = "Retry." //Change to more appropriate message
     } else {
       //Difference between calling functions with arguements and sending to parameter's, local variables
       console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
-      document.getElementById("answer").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
+      document.getElementById("points").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
     }
-    
+
 } //End main()
 //
 function testNaN (number) {
