@@ -12,7 +12,7 @@ function solution (width, height)
   //Odd Ternary, first option is usually true
   //
   return(width < height)? "Portrait";
-/*
+
    //Repeats the Ternary Operator
   if ( number1 < number2 )
   {
@@ -21,7 +21,7 @@ function solution (width, height)
   {
     return "width is larger";
   }
-*/
+
 
 }//ENd solution
 //
