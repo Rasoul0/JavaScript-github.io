@@ -8,17 +8,19 @@ function solution (number1, number2)
 {
   if ( number1 == number2 ) return "  square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
-  return ( number1 > number2 ) ? "Number 2 is larger" : "Number 1 is larger";
+  return ( number1 > number2 ) ? "Number 1 is larger" : "Number 2 is larger";
   //Odd Ternary, first option is usually true
   //
-   Repeats the Ternary Operator
-  if ( number1 > number2 )
-  {
-    return "Number 1 is larger";
-  } else
+
+   //Repeats the Ternary Operator
+  if ( number1 < number2 )
   {
     return "Number 2 is larger";
+  } else
+  {
+    return "Number 1 is larger";
   }
+
 
 }//ENd solution
 //
