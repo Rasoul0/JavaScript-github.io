@@ -10,7 +10,7 @@ function solution (number1, number2)
   return ( number1 > number2 ) ? "Number 2 is larger" : "Number 1 is larger";
   //Odd Ternary, first option is usually true
   //
-  /* Repeats the Ternary Operator
+   Repeats the Ternary Operator
   if ( number1 > number2 )
   {
     return "Number 1 is larger";
@@ -18,7 +18,7 @@ function solution (number1, number2)
   {
     return "Number 2 is larger";
   }
-  */
+
 }//ENd solution
 //
 function main()
