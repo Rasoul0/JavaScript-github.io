@@ -9,7 +9,7 @@ function javascript () { //Where colsole.log tested file goes
 function main() {
   document.getElementById("validityTest1").innerHTML = alert ("You are connected");
 
-  /*
+
   let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
   //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
   firstNumber = document.getElementById("textField1").value;
@@ -26,7 +26,7 @@ function main() {
       console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
       document.getElementById("answer").innerHTML = "What did you say? " + geometry (firstNumber, secondNumber);
     }
-    */
+    
 } //End main()
 //
 function testNaN (number) {
