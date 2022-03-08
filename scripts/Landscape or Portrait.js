@@ -1,52 +1,59 @@
 console.log("You made it to the Landscape or Portrait.js");
 
-let stop = false; //Boolean for testNaN() validation function, see end of file
-
-function javascript () { //Where colsole.log tested file goes
-
-}
-
-function solution(width,height)
-{
-if(width == height) return "square";
-return (width>height)
-
-
-
-
-
-
-}
-//Main Function, necessary lines of code
-function main() {
-
-  document.getElementById("widthNumber").innerHTML = alert("Welcome");
-
-    let firstNumber, secondNumber; //Variables particular to JavsScript Assignment
-    //Get the value of the Heighth Input Field, id="testfield1", assign it to a variable
-    firstNumber = document.getElementById("widthNumber").value;
-    secondNumber = document.getElementById("heightNumber").value;
-    //Validate by alert or HTML Text in p-tag
-    document.getElementById("widthNumber").innerHTML = alert (testNAN (firstNumber) );
-    document.getElementById("widthNumber").innerHTML = testNAN (firstNumber);
-    document.getElementById("heightNumber").innerHTML = alert (testNAN (secondNumber) );
-    document.getElementById("heightNumber").innerHTML = testNAN (secondNumber);
-    if (stop == true) {
-        document.getElementById("geo").innerHTML = "Please try again." //Change to more appropriate message
-      } else {
-        //Difference between calling functions with arguements and sending to parameter's, local variables
-        console.log("What did you say?", javaScriptFunction-Solution (firstNumber, secondNumber)); // Change to more appropriate message
-        document.getElementById("geo").innerHTML = "Can you repeat that again please? " + geometry (firstNumber, secondNumber);
-
-}
-} //End main()
 //
-function testNaN (number) {
-  if ( isNaN (number) ) { //NaN are not values o REAL Number System
-    stop = true;
-    return "Please Try again"
-  } else {
-    return "Input Validated"
+//Global Variables
+let stop = false;
+//
+function solution (number1, number2)
+{
+  if ( number1 == number2 ) return "  square";
+  // Ternary Operator Example (single comparison), needs single line IF to limit choices
+  return ( number1 > number2 ) ? "Number 2 is larger" : "Number 1 is larger";
+  //Odd Ternary, first option is usually true
+  //
+   Repeats the Ternary Operator
+  if ( number1 > number2 )
+  {
+    return "Number 1 is larger";
+  } else
+  {
+    return "Number 2 is larger";
   }
 
-}//End testNaN()
+}//ENd solution
+//
+function main()
+{
+  stop = false; //for Screen Refresh
+  let firstNumber = document.getElementById("widthNumber").value;
+  let secondNumber = document.getElementById("heightNumber").value;
+  //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
+  document.getElementById("widthNumber").innerHTML = testNaN (firstNumber);
+  document.getElementById("heightNumber").innerHTML = testNaN (secondNumber);
+  if (stop == true)
+  {
+    document.getElementById("geo").innerHTML = "Restart ... because I said so."
+  } else
+  {
+    document.getElementById("geo").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
+  }//ENd stop=true
+}//End main()
+//
+function testNaN (number)
+{
+  if ( number=="geo" ) //Checking for null, submit-button misfire
+  //Variable returns emply string, not null
+  {
+    stop = true;
+    return "Please type a number into the textfield"
+  }//End null check
+  //
+  if ( isNaN(number) ) //Returns a Boolean
+  {
+    stop = true;
+    return "Type a Real Number";
+  } else
+  {
+    return "Good. It is a number."
+  }
+}//End testNaN
