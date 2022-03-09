@@ -35,8 +35,8 @@ function main()
     document.getElementById("geo").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("geo").innerHTML = "What did you say?  " + solution(width, height);
-}//End main()
+      document.getElementById("geo").innerHTML = "What did you say?  " + solution(width, height);}
+  }//End main()
 //
 function testNaN (number)
 {
