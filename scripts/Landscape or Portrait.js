@@ -36,7 +36,6 @@ function main()
   } else
   {
     document.getElementById("geo").innerHTML = "What did you say?  " + solution(width, height);
-  }//ENd stop=true
 }//End main()
 //
 function testNaN (number)
