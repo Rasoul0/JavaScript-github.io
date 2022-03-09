@@ -6,7 +6,7 @@ let stop = false;
 //
 function solution (number1, number2)
 {
-  if ( number1 == number2 ) return "  Square";
+  if ( number1 == number2 ) return "Square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
   return ( number1 > number2 ) ? "Number 1 is larger" : "Number 2 is larger";
   //Odd Ternary, first option is usually true
