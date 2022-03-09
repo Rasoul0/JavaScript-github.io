@@ -10,7 +10,7 @@ function solution (width, height)
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
   return ( width > height ) ? "Landscape"
   //Odd Ternary, first option is usually true
-  
+
    //Repeats the Ternary Operator
   if ( width < height )
   {
