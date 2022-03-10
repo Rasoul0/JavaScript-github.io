@@ -4,18 +4,18 @@ let stop = false;
 //
 function solution (number1, number2)
 {
-  if ( number1 == number2 ) return "  If Width and Height Equal than Square";
+  if ( number1 == number2 ) return "  If Width and Height Equal: Square";
   // Ternary Operator Example (single comparison), needs single line IF to limit choices
-  return ( number1 > number2 ) ? "Width is larger than Landscape" : "Height is larger than Portrait";
+  return ( number1 > number2 ) ? "if Width is larger than Height = Landscape" : "Height is larger than Width = Portrait";
   //Odd Ternary, first option is usually true
   //
    //Repeats the Ternary Operator
   if ( number1 > number2 )
   {
-    return "Height is larger than Portrait";
+    return "Height is larger than Width = Portrait";
   } else
   {
-    return "Width is larger than Landscap";
+    return "if Width is larger than Height = Landscapep";
   }
 
 }//ENd solution
