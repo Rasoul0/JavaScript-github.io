@@ -1,6 +1,5 @@
 console.log("You made it to the Landscape or Portrait.js");
 //
-//Global Variables
 let stop = false;
 //
 function solution (number1, number2)
