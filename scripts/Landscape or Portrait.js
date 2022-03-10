@@ -33,7 +33,7 @@ function main()
     document.getElementById("geo").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("geo").innerHTML = "What did you say?  " + solution(firstNumber, secondNumber);
+    document.getElementById("geo").innerHTML = "Landscape, portrait, or Square?" + solution(firstNumber, secondNumber);
   }//ENd stop=true
 }//End main()
 //
