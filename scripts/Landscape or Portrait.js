@@ -22,7 +22,7 @@ function solution (number1, number2)
 //
 function main()
 {
-
+  if = false;
   let firstNumber = document.getElementById("textField1").value;
   let secondNumber = document.getElementById("textField2").value;
   //document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
