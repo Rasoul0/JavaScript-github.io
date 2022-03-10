@@ -23,8 +23,8 @@ function solution (number1, number2)
 function main()
 {
   stop = false;
-  let firstNumber = document.getElementById("textField1").value;
-  let secondNumber = document.getElementById("textField2").value;
+  let firstNumber = document.getElementById("widthNumber").value;
+  let secondNumber = document.getElementById("heightNumber").value;
   document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
   document.getElementById("validityTest1").innerHTML = testNaN (firstNumber);
   document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
