@@ -5,7 +5,7 @@ let stop = false;
 //
 function solution (number1, number2)
 {
-  if ( number1 % number2 ) return "  0";
+  if ( number1 / number2 ) return "  0";
 
   return ( number1 > number2 ) ? "if Width is larger than Height = Landscape" : "Height is larger than Width = Portrait";
   //
