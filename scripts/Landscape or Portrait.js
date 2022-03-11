@@ -25,7 +25,7 @@ function main()
   stop = false;
   let firstNumber = document.getElementById("widthNumber").value;
   let secondNumber = document.getElementById("heightNumber").value;
-  document.getElementById("CanBeAnything").innerHTML = alert ("You are connected")"Please Type a number";
+  document.getElementById("CanBeAnything").innerHTML = alert ("You are connected");
   document.getElementById("validityTest1").innerHTML = testNaN (firstNumber);
   document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
   if (stop == true)
