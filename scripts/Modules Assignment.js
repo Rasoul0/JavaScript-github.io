@@ -6,16 +6,8 @@ let stop = false;
 function solution (number1, number2)
 {
   if ( $(":even") / $(":even") ) return "  0 For even";
-
   return ( number1 > number2 ) ? "if Width is larger than Height = Landscape" : "Height is larger than Width = Portrait";
-  //
-  if ( number1 > number2 )
-  {
-    return "Height is larger than Width = Portrait";
-  } else
-  {
-    return "if Width is larger than Height = Landscape";
-  }
+
 
 }//ENd solution
 //
