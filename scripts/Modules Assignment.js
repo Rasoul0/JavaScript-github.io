@@ -22,23 +22,23 @@ function solution (number1, number2)
 function main()
 {
   stop = false;
-  let firstNumber = document.getElementById("widthNumber").value;
-  let secondNumber = document.getElementById("heightNumber").value;
+  let firstNumber = document.getElementById("textField1").value;
+  let secondNumber = document.getElementById("textField2").value;
   document.getElementById("CanBeAnything").innerHTML = alert ("You are connected")"Please Type a number";
   document.getElementById("validityTest1").innerHTML = testNaN (firstNumber);
   document.getElementById("validityTest2").innerHTML = testNaN (secondNumber);
   if (stop == true)
   {
-    document.getElementById("geo").innerHTML = "Restart ... because I said so."
+    document.getElementById("Even").innerHTML = "Restart ... because I said so."
   } else
   {
-    document.getElementById("geo").innerHTML = "Landscape, portrait, or Square?" + solution(firstNumber, secondNumber);
+    document.getElementById("Even").innerHTML = "Landscape, portrait, or Square?" + solution(firstNumber, secondNumber);
   }//ENd stop=true
 }//End main()
 //
 function testNaN (number)
 {
-  if ( number=="geo" ) //Checking for null, submit-button misfire
+  if ( number=="Even" ) //Checking for null, submit-button misfire
   //Variable returns emply string, not null
   {
     stop = true;
